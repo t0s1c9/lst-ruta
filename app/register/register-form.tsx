@@ -52,7 +52,7 @@ export function RegisterForm({ initialRole }: { initialRole: Role }) {
         {role === "private" && <p className="form-footnote">Možeš da objaviš potrebu za prevozom bez firme i vozila.</p>}
         {error && <p className="form-error" role="alert">{error}</p>}
         <button className="btn btn-red register-submit" disabled={pending}>{pending ? "Čuvanje..." : "Kreiraj nalog"}<ArrowRight size={17}/></button>
-        <p className="form-footnote">Ulogu kasnije nije moguće promeniti na istom nalogu. Sačuvaj lozinku; automatski reset još nije dostupan. Već imaš nalog? <Link href="/login">Prijavi se</Link>.</p>
+        <p className="form-footnote">Ulogu kasnije nije moguće promeniti na istom nalogu. Sačuvaj lozinku; automatski reset još nije dostupan. Već imaš nalog? <a href="/login">Prijavi se</a>.</p>
       </form>
     </main>
   </div>;

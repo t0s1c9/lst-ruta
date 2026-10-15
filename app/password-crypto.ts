@@ -1,4 +1,4 @@
-const iterations = 600_000;
+const iterations = 100_000;
 const encoder = new TextEncoder();
 
 function encode(bytes: Uint8Array): string {
