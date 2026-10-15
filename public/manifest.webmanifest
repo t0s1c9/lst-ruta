@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "name": "LST Ruta — logistika za firme i vozače",
+  "short_name": "LST Ruta",
+  "description": "Objavi turu, pronađi vozača i prati isporuku.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#111216",
+  "theme_color": "#111216",
+  "lang": "sr-Latn",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
