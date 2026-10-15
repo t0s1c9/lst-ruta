@@ -9,7 +9,7 @@
     {
       "binding": "DB",
       "database_name": "lst-ruta-db",
-      "database_id": "00000000-0000-4000-8000-000000000000",
+      "database_id": "f37079fe-7e2c-4b07-8573-245acca0fd96",
       "migrations_dir": "drizzle"
     }
   ],
